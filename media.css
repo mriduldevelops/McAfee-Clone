@@ -143,7 +143,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
+        text-align: center;
     }
 
     .section_1 .card__container .card h4 {
@@ -282,7 +282,7 @@
     }
 
     .affordable__cards .basic__card .content {
-        margin: 25px 70px;
+        margin: 25px 50px;
     }
 
     .basic__card .content h3 {
@@ -390,4 +390,126 @@
     .section_7 .content p {
         margin: 0 0 40px;
     }
+
+    /* section 8 */
+    .section_8 {
+        padding: 35px;
+    }
+
+    .section_8 .top {
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+
+    .section_8 .top .right img {
+        width: 100%;
+    }
+
+    .section_8 .top .left {
+        padding: 16px 0;
+    }
+
+    .section_8 .top .left h2 {
+        font-size: 1.7rem;
+    }
+
+    .section_8 .top .left p {
+        margin: 16px 0 0;
+        font-size: .9rem;
+    }
+
+    .section_8 .card__container {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section_8 .card__container .card p {
+        margin: 24px 0;
+        font-size: 1.1rem;
+    }
+
+    /* section 9 */
+
+    .section_9 {
+        padding: 8px;
+    }
+
+    .section_9 .container {
+        flex-direction: column-reverse;
+    }
+
+    .section_9 .container .left {
+        width: 100%;
+        padding-top: 16px;
+    }
+
+    .section_9 .container .right {
+        width: 100%;
+    }
+
+    .section_9 .container .right img {
+        width: 100%;
+        height: 110%;
+
+    }
+
+    .section_9 .container .left h2 {
+        font-size: 1.7rem;
+        line-height: 1.9rem;
+    }
+
+    .section_9 .container .left p {
+        margin: 16px 0;
+        font-size: .9rem;
+    }
+
+    .section_9 .container .left .buttons {
+        margin-top: 38px;
+        flex-direction: column;
+    }
+
+    .section_9 .container .left .buttons .border__button {
+        padding: 6px 61px;
+    }
+
+    /* section 10 */
+    .section_10 {
+        padding: 8px;
+    }
+
+    .section_10 .container {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    .section_10 .container .right {
+        width: 100%;
+    }
+
+    .section_10 .container .left {
+        width: 100%;
+    }
+
+    .section_10 .container .left img {
+        width: 100%;
+    }
+
+    .section_10 .container .right h2 {
+        font-size: 1.7rem;
+        line-height: 1.9rem;
+    }
+
+    .section_10 .container .right p {
+        padding: 16px;
+        padding-left: 0;
+        font-size: .9rem;
+    }
+
+    #list {
+        padding: 25px;
+        margin: 0;
+    }
+
 }

@@ -735,6 +735,9 @@ hr {
     font-size: 1.1rem;
     border-radius: 25px;
 }
+.section_9 .container .left .buttons .border__button:hover{
+    border: 1px solid #FF1C1C;
+}
 
 /* section_10 */
 
@@ -770,7 +773,7 @@ hr {
 }
 
 #list {
-    padding: 25px 0 0 50px;
+    padding: 25px;
 }
 
 .faq__section {
