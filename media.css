@@ -162,8 +162,8 @@
     }
 
     .section_2 .product__cards {
-        grid-template-columns: 1fr;
-        gap: 16px;
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .product__details {
@@ -175,7 +175,7 @@
     }
 
     .accordians {
-        margin: 22px 0;
+        margin: 22px 0 0;
         display: grid;
         grid-template-columns: 1fr;
         gap: 0;
@@ -237,14 +237,15 @@
 
     /* section 3 */
     .section_3 {
-        padding: 48px 30px 0;
+        padding: 0 30px;
         font-size: 1rem;
     }
 
     .section_3 .top {
-        margin: 3px 0;
-        padding: 9px 6px;
+        margin: 0;
+        padding: 0;
         grid-template-columns: 1fr;
+        background-color: #fff;
     }
 
     .section_3 .top .right {
@@ -252,7 +253,8 @@
     }
 
     .section_3 .bottom {
-        padding: 9px 6px;
+        background-color: #f2f2f2;
+        padding: 0;
         grid-template-columns: 1fr;
     }
 
@@ -511,5 +513,73 @@
         padding: 25px;
         margin: 0;
     }
+
+    .faq__section {
+        padding: 16px;
+    }
+
+    .faq__section .content {
+        border-radius: 12px;
+        padding: 22px 0;
+    }
+
+    .faq__section .content h2 {
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+
+    .faq__section .content p {
+        font-size: 1.1rem;
+    }
+
+    .faq__section .content .faq__accordians {
+        margin: 49px 30px;
+    }
+
+    .faq__section .content .faq__accordians .faq__accordian {
+
+        border: none;
+        border-radius: 12px;
+        padding: 12px 20px 12px 40px;
+    }
+
+    .faq__section .content .faq__accordians .faq__accordian .container .title {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    /* footer */
+
+    footer {
+        padding: 42px 16px;
+    }
+
+    footer .content {
+        border-radius: 12px;
+        padding: 25px;
+    }
+
+    footer .content .top {
+        grid-template-columns: 1fr;
+    }
+
+    footer .content .ft__left {
+        grid-template-columns: 1fr;
+    }
+
+    footer .content .ft__right {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        text-align: center;
+    }
+
+    footer ul a:hover {
+        color: #ff1c1c;
+    }
+
+    footer .content .ft__right {
+        margin-top: 48px;
+    }
+
 
 }
