@@ -96,7 +96,60 @@ button:hover {
 
 .hamburger_icon {
     font-size: 0;
+}
 
+.mobile__nav {
+    font-size: 1.4rem;
+    height: 100vh;
+}
+
+.mobile__nav.hidden {
+    display: none;
+}
+
+.mobile__nav a {
+    text-decoration: none;
+    color: #333333;
+    transition: all .3s ease-out;
+}
+
+.mobile__nav a:hover {
+    color: #FF1C1C;
+}
+
+.mobile__nav .top {
+    padding: 30px 40px;
+    background-color: #f2f2f2;
+}
+
+.mobile__nav .top>div {
+    border-bottom: 1px solid #c2c2c2;
+    padding: 6px 3px;
+    display: flex;
+}
+
+.mobile__nav div>.symbol {
+    transform: rotate(-90deg);
+}
+
+.mobile__nav .bottom {
+    padding: 30px 40px;
+}
+
+.mobile__nav .bottom>div {
+    padding: 6px 3px;
+    display: flex;
+}
+
+.mobile__nav .bottom>button {
+    margin-top: 48px;
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    width: 100%;
+    border-radius: 30px;
+    padding: 15px 35px;
+    font-size: 1.6rem;
 }
 
 /* hero section */
@@ -824,7 +877,10 @@ hr {
 }
 
 .faq__section .content .faq__accordians .faq__accordian .container .title {
-    width: 200%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     font-size: 1.3rem;
     font-weight: 400;
 }
@@ -835,6 +891,8 @@ hr {
 footer {
     padding: 42px 32px;
     margin: 40px 0 0;
+    position: absolute;
+    bottom: 4;
 }
 
 footer .content {
